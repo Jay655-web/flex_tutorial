@@ -1,11 +1,20 @@
 /* Responsive styles copied from basic.css */
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .navbar > h3 {
+        font-size: 1.2em;
+        margin: 5px;
+        flex-basis: 100%;
+        text-align: center;
     }
     .navbar > ul {
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: center;
         width: 100%;
     }
     .navbar > ul > li {
