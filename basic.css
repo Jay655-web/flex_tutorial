@@ -3,6 +3,7 @@
     height: 100vh;
     margin: 0;
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* the layout for the navigation bar */
@@ -57,7 +58,9 @@
     text-align: center;
 }
 
-.cardinfo1
+.cardinfo {
+    font-family: inherit;
+}
 
 /* the layout for the footer */
 .footer {
