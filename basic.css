@@ -53,8 +53,11 @@
     border: 2px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
+    text-align: center;
 }
+
+.cardinfo1
 
 /* the layout for the footer */
 .footer {
