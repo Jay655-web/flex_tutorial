@@ -1,23 +1,27 @@
 .body .html {
-    background-color: aliceblue;
+    background-color: #f2f3f5;
     height: 100vh;
     margin: 0;
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
 }
 
 /* the layout for the navigation bar */
 .navbar {
-    background-color: aquamarine;
+    background-color: #1e2a3a;
     width: 100%;
     min-width: 320px;
+    height: 100px;
     margin: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 
 .navbar > h3 {
+    color: white;
     justify-items: center;
     margin: 10px;
     text-align: center;
@@ -32,7 +36,13 @@
 }
 
 .navbar > ul > li {
+    color: white;
     padding: 10px;
+}
+
+.navbar > ul > li > a {
+    color: white;
+    text-decoration: none;
 }
 
 /* the layout for the main content */
@@ -41,13 +51,14 @@
     width: 100%;
     min-width: 320px;
     height: 100vh;
-    background-color: lightgreen;
+    background-color: #f2f3f5;
     margin: 0;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .card {
+    background-color: white;
     height:  500px;
     width: 100%;
     margin: 20px;
@@ -59,12 +70,15 @@
 }
 
 .cardinfo {
-    font-family: inherit;
+    font-size: large;
+    font-weight: bold;
 }
 
 /* the layout for the footer */
 .footer {
-    background-color: lightcoral;
+    background-color: #1e2a3a;
+    color: white;
+    font-weight: bold;
     width: 100%;
     min-width: 320px;
     height: 50px;
