@@ -1,6 +1,7 @@
 body {
     background-color: white;
     margin: 0;
+    font-family: Verdana;
 }
 
 .header {
@@ -21,6 +22,7 @@ body {
     grid-gap: 15px;
     width: 100%;
     font-size: large;
+    grid-auto-flow: row;
 }
 
 .footer {
